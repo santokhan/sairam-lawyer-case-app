@@ -2,14 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
-
-//Import it from your react index.js file
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Loader from './components/PageLoader.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Router>
-      <App />
-    </Router>
+    <Loader />
+    <App />
   </React.StrictMode>,
 )
