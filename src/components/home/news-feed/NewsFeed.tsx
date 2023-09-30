@@ -2,8 +2,8 @@ import NewsFeedTop from "./NewsFeedTop"
 import picture from '../../../assets/images/profile.png'
 import { Location } from "iconsax-react"
 import { EllipsisHorizontalIcon } from "@heroicons/react/20/solid"
-import { BookmarkIcon, ShareIcon, InboxIcon } from "@heroicons/react/24/outline"
-import { Message, Share, Heart } from 'iconsax-react';
+import { BookmarkIcon, ShareIcon } from "@heroicons/react/24/outline"
+import { Message, Heart } from 'iconsax-react';
 
 export const FeedItem = () => (
     <div className="p-4 bg-white text-gray-500 rounded-xl space-y-6">
@@ -23,13 +23,13 @@ export const FeedItem = () => (
             </p>
         </div>
         <figure className="bg-gray-100">
-            <img src="" alt="post" className="w-full aspect-[16/9]" />
+            <img src="https://source.unsplash.com/random/1920x1080" alt="post" className="w-full aspect-[16/9]" />
         </figure>
         <div className="flex justify-around">
-            <button type="button" className="flex items-center gap-2"><Heart className="w-6 h-6" /></button>
-            <button type="button" className="flex items-center gap-2"><Message className="w-6 h-6" /></button>
-            <button type="button" className="flex items-center gap-2"><ShareIcon className="w-6 h-6" /></button>
-            <button type="button" className="flex items-center gap-2"><BookmarkIcon className="w-6 h-6" /></button>
+            <button type="button" className="flex items-center gap-2 hover:text-primary"><Heart className="w-6 h-6" /></button>
+            <button type="button" className="flex items-center gap-2 hover:text-primary"><Message className="w-6 h-6" /></button>
+            <button type="button" className="flex items-center gap-2 hover:text-primary"><ShareIcon className="w-6 h-6" /></button>
+            <button type="button" className="flex items-center gap-2 hover:text-primary"><BookmarkIcon className="w-6 h-6" /></button>
         </div>
     </div>
 )
@@ -79,7 +79,7 @@ const NewsFeed = () => {
                     </div>
                 </div>
             </div>
-            {[0, 1, 2, 3, 4, 5, 6].map((e, i) => <FeedItem key={i} />)}
+            {[0, 1, 2, 3, 4, 5, 6].map((e: any, i) => <FeedItem key={i} />)}
         </div>
     )
 }
