@@ -31,3 +31,7 @@ If you are developing a production application, we recommend updating the config
 ### Tools
 
 https://transform.tools/html-to-jsx
+
+## Figma Link
+
+- https://www.figma.com/file/wjT3TboKds7v3NYRRqkA7G/Sariramchaganti-web-v2?type=design&node-id=841%3A19125&mode=design&t=TTzeRIjs5IHe9UFx-1

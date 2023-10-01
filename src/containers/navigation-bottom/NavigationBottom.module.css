@@ -1,0 +1,11 @@
+.activeNav {
+    width: 0.35rem;
+    height: 100%;
+    max-height: 3rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 0px 29.878px 29.878px 0px;
+    background: linear-gradient(180deg, #51B9FF 0%, #058EEA 100%, #147BF5 100%);
+    box-shadow: 0px 4px 10px 0px rgba(0, 153, 255, 0.20);
+}
