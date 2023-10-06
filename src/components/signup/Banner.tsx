@@ -4,6 +4,7 @@ const Banner = () => (
         viewBox="0 0 835 743"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true"
     >
         <g clipPath="url(#clip0_56_10453)">
             <path

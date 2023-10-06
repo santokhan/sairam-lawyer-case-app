@@ -5,7 +5,7 @@ import Home from "../../components/icons/home"
 import Case from "../../components/icons/case"
 import Legal from "../../components/icons/search"
 import Settings from "../../components/icons/settings"
-import { Navs } from "../../components/sidebar/SideBar"
+import Navs from "../../lib/sidebar/Navs"
 
 export const Icons = (props: any) => {
     switch (props.path) {

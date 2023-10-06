@@ -18,10 +18,10 @@ export function Slider() {
                 modules={[Pagination]}
                 className="mySwiper rounded-xl"
             >
-                <SwiperSlide>Slide 1</SwiperSlide>
-                <SwiperSlide>Slide 2</SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>
+                <SwiperSlide><img src="/assets/images/slider/right-bar/slide-1.png" alt="slide images" className='pb-6' /></SwiperSlide>
+                <SwiperSlide><img src="/assets/images/slider/right-bar/slide-1.png" alt="slide images" className='pb-6' /></SwiperSlide>
+                <SwiperSlide><img src="/assets/images/slider/right-bar/slide-1.png" alt="slide images" className='pb-6' /></SwiperSlide>
+                <SwiperSlide><img src="/assets/images/slider/right-bar/slide-1.png" alt="slide images" className='pb-6' /></SwiperSlide>
             </Swiper>
         </>
     );
@@ -61,7 +61,7 @@ export const FlexList: FlexItem[] = [
 
 export default function RightBar() {
     return (
-        <aside className='w-full lg:w-[32rem] space-y-4'>
+        <aside className='w-full lg:w-[28rem] space-y-4'>
             <div className="">
                 <Slider></Slider>
             </div>
@@ -87,7 +87,7 @@ export function FlexItem(props: { data: FlexItem }) {
 export function Icons(props: { name: string }) {
     if (props.name === FlexList[0].icon) {
         return (
-            <svg className="w-16" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className="w-14" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <g clipPath="url(#clip0_56_8237)">
                     <path d="M80 57.5C80 53.1902 78.2879 49.057 75.2405 46.0095C72.193 42.9621 68.0598 41.25 63.75 41.25C59.4402 41.25 55.307 42.9621 52.2595 46.0095C49.2121 49.057 47.5 53.1902 47.5 57.5H80Z" fill="#147BF5" />
                     <path d="M63.7506 41.2494C68.231 41.2494 71.8631 37.6173 71.8631 33.1369C71.8631 28.6565 68.231 25.0244 63.7506 25.0244C59.2702 25.0244 55.6381 28.6565 55.6381 33.1369C55.6381 37.6173 59.2702 41.2494 63.7506 41.2494Z" fill="#147BF5" />
@@ -106,7 +106,7 @@ export function Icons(props: { name: string }) {
     }
     if (props.name === FlexList[1].icon) {
         return (
-            <svg className="w-16" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className="w-14" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <path d="M52.2066 59.5859C50.956 60.9321 49.5304 62.1479 47.9642 63.2049C43.6386 66.1355 38.2254 67.8749 32.3478 67.8749C28.244 67.8749 24.3664 67.0277 20.9306 65.5185C16.0592 70.4817 8.27721 70.0297 8.27721 70.0297L14.3952 61.4189C9.64581 57.3213 6.70081 51.6129 6.70081 45.2953C6.70081 39.6763 9.03061 34.5379 12.886 30.5869C14.2504 29.1899 15.8066 27.9393 17.5172 26.8701C16.4784 29.4851 15.9124 32.2955 15.9124 35.2221C15.9124 49.1749 28.7592 60.4841 44.604 60.4841C47.2372 60.4841 49.785 60.1725 52.2066 59.5859Z" fill="#147BF5" />
                 <path d="M57.9955 45.2954C57.9955 50.7188 55.8265 55.6944 52.2077 59.5862C49.7861 60.1728 47.2383 60.4844 44.6051 60.4844C28.7603 60.4844 15.9135 49.1752 15.9135 35.2224C15.9135 32.296 16.4795 29.4854 17.5183 26.8704C21.7055 24.2554 26.8215 22.7158 32.3487 22.7158C46.5131 22.7156 57.9955 32.8232 57.9955 45.2954Z" fill="url(#paint0_linear_56_8241)" />
                 <path d="M64.6917 53.26L71.5369 62.895C71.5369 62.895 62.8283 63.4 57.3805 57.8484C55.7106 58.5783 53.9796 59.1597 52.2077 59.5856C49.7861 60.1722 47.2383 60.4838 44.6051 60.4838C28.7603 60.4838 15.9135 49.1746 15.9135 35.2218C15.9135 32.2954 16.4795 29.4848 17.5183 26.8698C21.4345 17.0208 32.0839 9.95996 44.6049 9.95996C60.4513 9.95996 73.2983 21.2672 73.2983 35.2218C73.2983 42.289 70.0051 48.6758 64.6917 53.26Z" fill="#CCE9FF" />
@@ -125,7 +125,7 @@ export function Icons(props: { name: string }) {
     }
     if (props.name === FlexList[2].icon) {
         return (
-            <svg className="w-16" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className="w-14" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <path d="M46.8749 76.2353H9.37488C7.30382 76.2353 5.62488 74.5563 5.62488 72.4853V64.9853C6.19768 36.6102 50.056 36.5427 50.6248 64.9856L50.6249 72.4853C50.6249 74.5563 48.9459 76.2353 46.8749 76.2353Z" fill="#147BF5" />
                 <path d="M46.8749 77.4873H9.37488C6.61792 77.4873 4.37488 75.2443 4.37488 72.4873V64.9873C5.11293 34.9335 51.1372 34.8614 51.8748 64.9876L51.8749 72.4873C51.8749 75.2443 49.6318 77.4873 46.8749 77.4873ZM26.8749 44.9873C15.847 44.9873 6.87488 53.9595 6.87488 64.9873V72.4873C6.87488 73.8661 7.99609 74.9873 9.37488 74.9873H46.8749C48.2537 74.9873 49.3749 73.8661 49.3749 72.4873V64.9873C49.407 52.8545 38.7714 43.9101 26.8749 44.9873Z" fill="#147BF5" />
                 <path d="M35.625 62.4854L28.125 71.2354L20.625 62.4854L25.625 47.4854H30.625L35.625 62.4854Z" fill="#E6F3FF" stroke="#E6F3FF" strokeWidth="2.02083" strokeLinejoin="round" />

@@ -1,23 +1,23 @@
 const Navs = [
     {
         name: "Home",
-        path: "/",
+        path: "",
     },
     {
         name: "Law Library",
-        path: "/law-library",
+        path: "law-library",
     },
     {
         name: "Case Management",
-        path: "/case-management",
+        path: "case-management",
     },
     {
         name: "Legal Search Modules",
-        path: "/leagal-search",
+        path: "leagal-search",
     },
     {
         name: "Settings",
-        path: "/settings",
+        path: "settings",
     },
 ]
 

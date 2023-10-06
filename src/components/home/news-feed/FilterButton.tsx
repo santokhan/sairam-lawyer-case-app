@@ -5,6 +5,7 @@ const FilterButton = () => (
             viewBox="0 0 26 32"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
         >
             <path
                 d="M1 5.33301H10.3334"

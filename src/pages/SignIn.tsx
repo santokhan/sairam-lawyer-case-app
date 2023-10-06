@@ -1,3 +1,1 @@
-const SignIn = () => (<></>)
-
-export default SignIn
+export default function SignIn() { }
