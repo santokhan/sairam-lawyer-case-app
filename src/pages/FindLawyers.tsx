@@ -128,11 +128,11 @@ export function SearchForm() {
 
 export function FeedItem({ data }: { data: any }) {
     return (
-        <div className="p-6 bg-white text-gray-700 rounded-xl flex gap-6">
+        <div className="p-4 lg:p-6 bg-white text-gray-700 rounded-xl flex gap-4 lg:gap-6 flex-wrap lg:flex-nowrap">
             <figure className="w-auto">
                 <img src={picture} alt="profile" className="w-[12rem] min-w-[12rem] h-[12rem] min-h-[12rem] rounded-full object-cover" />
             </figure>
-            <div className="w-full space-y-6">
+            <div className="w-full space-y-4 lg:space-y-6">
                 <div className="">
                     <h2 className="text-2xl font-semibold flex items-center gap-2">
                         {data.info.nameOfCase}
@@ -187,7 +187,7 @@ const HomePage = () => {
     return (
         <AppContainer>
             <div className="grid gap-4 grid-cols-1 xl:grid-cols-[28rem_1fr] py-4 text-base">
-                <aside className='w-full lg:w-[28rem] bg-white rounded-2xl space-y-6 p-6'>
+                <aside className='w-full lg:w-[28rem] bg-white rounded-2xl space-y-6 p-4 lg:p-6'>
                     <h5 className="text-xl font-semibold text-gray-800">Filters</h5>
                     <form className="space-y-3">
                         <p className="font-semibold text-lg">Location</p>
