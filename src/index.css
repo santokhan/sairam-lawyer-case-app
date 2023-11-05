@@ -22,6 +22,19 @@
     html {
         font-family: "Urbanist", sans-serif;
     }
+
+
+    /* hide arrows Chrome, Safari, Edge, Opera */
+    .off-arrow::-webkit-outer-spin-button,
+    .off-arrow::-webkit-inner-spin-button {
+        -webkit-appearance: none !important;
+        margin: 0 !important;
+    }
+
+    /* Firefox */
+    .off-arrow {
+        -moz-appearance: textfield !important;
+    }
 }
 
 @tailwind components;

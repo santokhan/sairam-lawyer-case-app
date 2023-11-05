@@ -16,6 +16,12 @@ import Logout from "./pages/Logout";
 import LawLibrary from "./pages/Law";
 import Legal from "./pages/Legal";
 import CaseManagement from "./pages/CaseManagement";
+import OTP from "./pages/user/OTP";
+import UserRoot from "./pages/user/UserRoot";
+import NewsFeed from "./pages/NewsFeed";
+import FindLawyers from "./pages/FindLawyers";
+import Connections from "./pages/Connections";
+import Chats from "./pages/Chats";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +31,22 @@ const router = createBrowserRouter([
             {
                 index: true,
                 element: <Home />
+            },
+            {
+                path: "news-feed",
+                element: <NewsFeed />
+            },
+            {
+                path: "find-lawyers",
+                element: <FindLawyers />
+            },
+            {
+                path: "connections",
+                element: <Connections />
+            },
+            {
+                path: "chats",
+                element: <Chats />
             },
             {
                 path: "law-library",
@@ -79,12 +101,22 @@ const router = createBrowserRouter([
         ]
     },
     {
-        path: "signup",
-        element: <SignUp />
-    },
-    {
-        path: "logout",
-        element: <Logout />
+        path: "user",
+        element: <UserRoot />,
+        children: [
+            {
+                path: "otp",
+                element: <OTP />,
+            },
+            {
+                path: "signup",
+                element: <SignUp />
+            },
+            {
+                path: "logout",
+                element: <Logout />
+            },
+        ]
     },
 ]);
 
