@@ -988,7 +988,7 @@ const Banner = () => (
 )
 
 export const Banner2 = () => (
-    <svg width="500" height="545" viewBox="0 0 500 545" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className="w-full max-w-md" viewBox="0 0 500 545" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="256.25" cy="235.417" r="235.417" fill="#F0F5FF" />
         <g clip-path="url(#clip0_841_19612)">
             <path d="M337.66 157.847H300.07V171.38H337.66V157.847Z" fill="#F5F5F5" />

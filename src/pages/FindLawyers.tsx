@@ -176,6 +176,7 @@ const HomePage = () => {
             stars: ["", "", ""],
             specializations: [...Specializations].slice(0, 6),
             info: info
+
         },
         {
             stars: ["", "", ""],
@@ -203,15 +204,16 @@ const HomePage = () => {
                         <div className="flex flex-wrap gap-3">
                             {specialization.map((e, i) =>
                                 e.active ?
-                                    <TagButtonSolid name={e.name} handleTag={() => { setspecialization(specialization.filter((e, i2) => i !== i2)) }} /> :
+                                    <TagButtonSolid name={e.name} handleTag={() => { setspecialization(specialization.filter((e, i2) => i !== i2)) }} />
+                                    :
                                     <TagButtonOutline name={e.name} handleTag={() => { setspecialization(specialization.filter((e, i2) => i !== i2)) }} />
                             )}
                         </div>
                     </div>
                     <div className="space-y-3">
                         <p className="font-semibold text-lg">Languages</p>
-                        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
-                            {Languages.map((e, i) => <CheckBox name={e.name} key={i}></CheckBox>)}
+                        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                            {Languages.map((e, i) => <CheckBox name={e.name} key={i} />)}
                         </div>
                     </div>
                     <div className="flex gap-2">

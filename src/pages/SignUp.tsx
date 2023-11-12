@@ -5,11 +5,11 @@ import phoneCodeList from '../components/signup/phoneCode.json'
 const SignUp = () => (
     <div className="bg-primary">
         <AppContainer>
-            <div className="grid md:grid-cols-2 place-items-center lg:min-h-screen">
-                <div className="w-full">
+            <div className="grid lg:grid-cols-2 place-items-center lg:min-h-screen gap-4 py-4">
+                <div className="w-full grid place-items-center p-4">
                     <Banner2 />
                 </div>
-                <form className="bg-white p-10 space-y-10 rounded-3xl max-w-lg">
+                <form className="bg-white p-10 space-y-10 rounded-3xl w-full max-w-lg">
                     <div className="space-y-3">
                         <h3 className="text-3xl font-semibold text-gray-800">Welcome to <span className="text-primary">Lawyer Desk</span></h3>
                         <p className="text-gray-700 text-base">Unlock the Future of Legal Assistance. Sign In to Connect, Collaborate with Fellow Lawyers.</p>

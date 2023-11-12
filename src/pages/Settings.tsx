@@ -2,6 +2,7 @@ import { BlueButton } from '../components/Buttons'
 import { ArrowRight2, DollarCircle, LanguageCircle, Logout } from 'iconsax-react'
 import { Link, Outlet, useLocation } from 'react-router-dom'
 import { BellAlertIcon } from '@heroicons/react/24/outline'
+import AppContainer from '../components/AppContainer'
 
 export const MailIcon = () => (
     <svg className="w-7 h-7" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -183,9 +184,11 @@ function UserSettings() {
 
 export default function Settings() {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-start">
-            <UserSettings />
-            <Outlet />
-        </div>
+        <AppContainer>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-start py-4">
+                <UserSettings />
+                <Outlet />
+            </div>
+        </AppContainer>
     )
 }

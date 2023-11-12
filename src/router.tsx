@@ -44,10 +44,10 @@ const router = createBrowserRouter([
                 path: "connections",
                 element: <Connections />
             },
-            {
-                path: "chats",
-                element: <Chats />
-            },
+            // {
+            //     path: "chats",
+            //     element: <Chats />
+            // },
             {
                 path: "law-library",
                 element: <LawLibrary />,
