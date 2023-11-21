@@ -990,7 +990,7 @@ const Banner = () => (
 export const Banner2 = () => (
     <svg className="w-full max-w-md" viewBox="0 0 500 545" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="256.25" cy="235.417" r="235.417" fill="#F0F5FF" />
-        <g clip-path="url(#clip0_841_19612)">
+        <g clipPath="url(#clip0_841_19612)">
             <path d="M337.66 157.847H300.07V171.38H337.66V157.847Z" fill="#F5F5F5" />
             <path d="M235.45 99.1667H197.86V112.701H235.45V99.1667Z" fill="#F5F5F5" />
             <path d="M220.27 218.643H182.68V232.177H220.27V218.643Z" fill="#EBEBEB" />
@@ -1033,7 +1033,7 @@ export const Banner2 = () => (
             <path d="M421.54 448.658H378.35V448.909H421.54V448.658Z" fill="#E0E0E0" />
             <path d="M436.78 448.658H430.45V448.909H436.78V448.658Z" fill="#E0E0E0" />
             <path d="M370.1 454.908H316.21V455.159H370.1V454.908Z" fill="#E0E0E0" />
-            <path d="M458.87 537.927C458.87 541.328 365.35 544.077 249.99 544.077C134.63 544.077 41.1099 541.318 41.1099 537.927C41.1099 534.536 134.63 531.777 249.99 531.777C365.35 531.777 458.87 534.536 458.87 537.927Z" fill="white" fill-opacity="0.2" />
+            <path d="M458.87 537.927C458.87 541.328 365.35 544.077 249.99 544.077C134.63 544.077 41.1099 541.318 41.1099 537.927C41.1099 534.536 134.63 531.777 249.99 531.777C365.35 531.777 458.87 534.536 458.87 537.927Z" fill="white" fillOpacity="0.2" />
             <path d="M72.2001 201.026V369.512C72.2001 382.905 55.0601 387.49 53.2901 387.921C61.5501 379.324 57.5301 368.248 57.5301 368.248C44.5201 363.823 36.9801 350.44 34.4901 341.28C33.0401 335.813 39.1801 320.754 45.5001 306.939C49.7901 297.559 54.2101 288.77 56.3801 283.955C61.0701 273.521 50.7001 261.392 51.6101 246.885C51.7501 244.728 52.1401 242.601 52.7801 240.504C58.1801 223.118 72.2101 201.026 72.2101 201.026H72.2001Z" fill="#004FFF" />
             <path opacity="0.2" d="M53.29 388.062V388.012C61.55 379.414 57.53 368.448 57.53 368.448V368.539C66.82 369.451 74.86 375.04 53.29 388.062Z" fill="black" />
             <path opacity="0.5" d="M72.2003 302.625V342.434C62.0103 331.288 53.0903 319.4 45.5303 306.899C49.8203 297.519 54.2403 288.73 56.4103 283.915C61.1003 273.481 50.7303 261.352 51.6403 246.845C53.8403 258.623 57.2203 272.718 61.4603 278.146C65.2603 283.052 69.0203 292.743 72.2003 302.635V302.625Z" fill="black" />
@@ -1044,62 +1044,62 @@ export const Banner2 = () => (
             <path d="M96.5203 533.242H49.7803C48.985 533.242 48.3403 533.888 48.3403 534.686V534.897C48.3403 535.695 48.985 536.342 49.7803 536.342H96.5203C97.3156 536.342 97.9603 535.695 97.9603 534.897V534.686C97.9603 533.888 97.3156 533.242 96.5203 533.242Z" fill="#263238" />
             <path opacity="0.3" d="M96.5203 533.242H49.7803C48.985 533.242 48.3403 533.888 48.3403 534.686V534.897C48.3403 535.695 48.985 536.342 49.7803 536.342H96.5203C97.3156 536.342 97.9603 535.695 97.9603 534.897V534.686C97.9603 533.888 97.3156 533.242 96.5203 533.242Z" fill="white" />
             <path d="M282.36 126.967H226.23V203.053H282.36V126.967Z" fill="#407BFF" />
-            <path d="M277.61 132.545H230.98V197.475H277.61V132.545Z" fill="white" stroke="#263238" stroke-width="0.5" stroke-miterlimit="10" />
+            <path d="M277.61 132.545H230.98V197.475H277.61V132.545Z" fill="white" stroke="#263238" strokeWidth="0.5" strokeMiterlimit={10} />
             <path opacity="0.3" d="M226.23 126.967L230.98 132.545H277.61L282.37 126.967H226.23Z" fill="black" />
             <path opacity="0.3" d="M226.23 203.053L230.98 197.475H277.61L282.36 203.053C282.2 203.464 226.23 203.053 226.23 203.053Z" fill="black" />
-            <path d="M240.2 146.189H255.69" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M240.2 153.643H268.2" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M240.2 159.121H268.2" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M240.2 164.609H268.2" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M240.2 170.096H268.2" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M251.64 182.186H257.61" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M240.2 146.189H255.69" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M240.2 153.643H268.2" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M240.2 159.121H268.2" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M240.2 164.609H268.2" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M240.2 170.096H268.2" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M251.64 182.186H257.61" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M268.98 182.456C268.98 184.523 267.31 186.199 265.25 186.199C263.19 186.199 261.52 184.523 261.52 182.456C261.52 180.39 263.19 178.714 265.25 178.714C267.31 178.714 268.98 180.39 268.98 182.456Z" fill="#407BFF" />
             <path d="M94.6602 134.913V191.225H170.5V134.913H94.6602Z" fill="#263238" />
             <path opacity="0.3" d="M94.6602 134.913V191.225H170.5V134.913H94.6602Z" fill="white" />
-            <path d="M100.22 139.678V186.459H164.94V139.678H100.22Z" fill="white" stroke="#263238" stroke-width="0.5" stroke-miterlimit="10" />
+            <path d="M100.22 139.678V186.459H164.94V139.678H100.22Z" fill="white" stroke="#263238" strokeWidth="0.5" strokeMiterlimit={10} />
             <path opacity="0.3" d="M94.6699 191.225L100.23 186.459V139.678L94.6699 134.913V191.225Z" fill="black" />
             <path opacity="0.3" d="M170.51 191.225L164.95 186.459V139.678L170.51 134.913C170.92 135.073 170.51 191.225 170.51 191.225Z" fill="black" />
-            <path d="M111.3 156.061H154.87" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M111.3 161.549H154.87" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M125.27 167.037H142.85" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M117.96 175.012H111.99" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M111.3 156.061H154.87" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M111.3 161.549H154.87" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M125.27 167.037H142.85" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M117.96 175.012H111.99" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M152.61 171.07C154.58 171.07 156.17 172.564 156.17 174.4C156.17 176.236 154.58 177.731 152.61 177.731C150.64 177.731 149.05 176.236 149.05 174.4C149.05 172.564 150.64 171.07 152.61 171.07Z" fill="#407BFF" />
-            <path d="M125.27 149.901H142.85" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M125.27 149.901H142.85" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M103.28 211.44V254.851H161.75V211.44H103.28Z" fill="#407BFF" />
-            <path d="M107.57 215.112V251.179H157.46V215.112H107.57Z" fill="white" stroke="#263238" stroke-width="0.5" stroke-miterlimit="10" />
+            <path d="M107.57 215.112V251.179H157.46V215.112H107.57Z" fill="white" stroke="#263238" strokeWidth="0.5" strokeMiterlimit={10} />
             <path opacity="0.3" d="M103.28 254.851L107.57 251.179V215.112L103.28 211.44V254.851Z" fill="black" />
             <path opacity="0.3" d="M161.75 254.851L157.46 251.179V215.112L161.75 211.44C162.06 211.561 161.75 254.851 161.75 254.851Z" fill="black" />
-            <path d="M116.1 227.743H149.69" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M116.1 231.977H149.69" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M126.88 236.2H140.43" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M121.24 242.35H116.64" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M116.1 227.743H149.69" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M116.1 231.977H149.69" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M126.88 236.2H140.43" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M121.24 242.35H116.64" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M147.95 239.32C149.47 239.32 150.7 240.474 150.7 241.889C150.7 243.303 149.47 244.457 147.95 244.457C146.43 244.457 145.2 243.303 145.2 241.889C145.2 240.474 146.43 239.32 147.95 239.32Z" fill="#407BFF" />
-            <path d="M126.88 222.988H140.43" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M126.88 222.988H140.43" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M340.34 134.802V191.115H416.18V134.802H340.34Z" fill="#263238" />
             <path opacity="0.3" d="M340.34 134.802V191.115H416.18V134.802H340.34Z" fill="white" />
-            <path d="M345.9 139.568V186.349H410.62V139.568H345.9Z" fill="white" stroke="#263238" stroke-width="0.5" stroke-miterlimit="10" />
+            <path d="M345.9 139.568V186.349H410.62V139.568H345.9Z" fill="white" stroke="#263238" strokeWidth="0.5" strokeMiterlimit={10} />
             <path opacity="0.3" d="M340.34 191.125L345.9 186.359V139.578L340.34 134.812V191.125Z" fill="black" />
             <path opacity="0.3" d="M416.18 191.125L410.62 186.359V139.578L416.18 134.812C416.59 134.973 416.18 191.125 416.18 191.125Z" fill="black" />
-            <path d="M356.97 155.961H400.54" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M356.97 161.448H400.54" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M370.95 166.936H388.53" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M363.64 174.912H357.67" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M356.97 155.961H400.54" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M356.97 161.448H400.54" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M370.95 166.936H388.53" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M363.64 174.912H357.67" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M398.29 170.969C400.26 170.969 401.85 172.464 401.85 174.3C401.85 176.136 400.26 177.631 398.29 177.631C396.32 177.631 394.73 176.136 394.73 174.3C394.73 172.464 396.32 170.969 398.29 170.969Z" fill="#407BFF" />
-            <path d="M370.95 149.801H388.53" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M370.95 149.801H388.53" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M350.43 211.34V254.75H408.9V211.34H350.43Z" fill="#407BFF" />
-            <path d="M354.72 215.012V251.078H404.61V215.012H354.72Z" fill="white" stroke="#263238" stroke-width="0.5" stroke-miterlimit="10" />
+            <path d="M354.72 215.012V251.078H404.61V215.012H354.72Z" fill="white" stroke="#263238" strokeWidth="0.5" strokeMiterlimit={10} />
             <path opacity="0.3" d="M350.43 254.75L354.72 251.078V215.012L350.43 211.34V254.75Z" fill="black" />
             <path opacity="0.3" d="M408.9 254.75L404.61 251.078V215.012L408.9 211.34C409.21 211.46 408.9 254.75 408.9 254.75Z" fill="black" />
-            <path d="M363.25 227.643H396.84" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M363.25 231.876H396.84" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M374.03 236.1C378.55 236.1 383.07 236.1 387.58 236.1" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M368.4 242.25H363.8" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M363.25 227.643H396.84" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M363.25 231.876H396.84" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M374.03 236.1C378.55 236.1 383.07 236.1 387.58 236.1" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M368.4 242.25H363.8" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M395.11 239.22C396.63 239.22 397.86 240.374 397.86 241.789C397.86 243.203 396.63 244.357 395.11 244.357C393.59 244.357 392.36 243.203 392.36 241.789C392.36 240.374 393.59 239.22 395.11 239.22Z" fill="#407BFF" />
-            <path d="M374.03 222.887H387.58" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M374.03 222.887H387.58" stroke="#263238" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M319.86 221.633C311.26 213.045 297.35 213.076 288.79 221.703C280.58 229.97 280.29 243.123 287.85 251.761L286.99 258.693L293.37 256.316C301.79 261.211 312.74 260.058 319.94 252.814C328.5 244.186 328.47 230.231 319.87 221.643L319.86 221.633Z" fill="#407BFF" />
             <path opacity="0.7" d="M319.86 221.633C311.26 213.045 297.35 213.076 288.79 221.703C280.58 229.97 280.29 243.123 287.85 251.761L286.99 258.693L293.37 256.316C301.79 261.211 312.74 260.058 319.94 252.814C328.5 244.186 328.47 230.231 319.87 221.643L319.86 221.633Z" fill="white" />
-            <path d="M286.49 217.61C280.69 221.794 277.23 229.047 277.62 236.201" stroke="#407BFF" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M277.91 239.471C277.89 240.564 278.1 241.658 278.51 242.671" stroke="#407BFF" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M286.49 217.61C280.69 221.794 277.23 229.047 277.62 236.201" stroke="#407BFF" strokeWidth="0.5" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M277.91 239.471C277.89 240.564 278.1 241.658 278.51 242.671" stroke="#407BFF" strokeWidth="0.5" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M292.26 230.682C293.53 247.246 304.33 250.978 305.86 250.928C307.38 250.878 317.58 246.755 316.32 230.201C311.07 229.689 308.14 226.95 305.05 224.061C302 227.181 296.68 230.642 292.27 230.682H292.26Z" fill="#407BFF" />
             <path opacity="0.3" d="M294.43 231.906C295.47 245.49 304.34 248.56 305.59 248.52C306.84 248.48 315.75 245.26 314.72 231.676C310.37 231.013 307.46 228.846 304.93 226.469C302.43 229.027 298.06 231.866 294.44 231.906H294.43Z" fill="black" />
             <path d="M305.72 232.268L306.77 234.395C306.86 234.585 307.04 234.716 307.25 234.746L309.59 235.087C310.11 235.167 310.32 235.809 309.94 236.18L308.24 237.836C308.09 237.986 308.02 238.197 308.06 238.398L308.46 240.745C308.55 241.267 308 241.668 307.54 241.417L305.44 240.314C305.25 240.213 305.03 240.213 304.85 240.314L302.75 241.417C302.28 241.668 301.74 241.267 301.83 240.745L302.23 238.398C302.27 238.187 302.2 237.976 302.05 237.836L300.35 236.18C299.97 235.809 300.18 235.167 300.7 235.087L303.04 234.746C303.25 234.716 303.43 234.585 303.52 234.395L304.57 232.268C304.8 231.796 305.48 231.796 305.71 232.268H305.72Z" fill="#407BFF" />
@@ -1146,7 +1146,7 @@ export const Banner2 = () => (
             <path d="M250.12 271.635L247.44 271.143C247.44 271.143 248.98 273.009 250.12 271.635Z" fill="#263238" />
             <path d="M239.18 271.003L236.47 270.672C237.79 272.086 238.84 271.464 239.18 271.003Z" fill="#263238" />
             <path d="M270.04 263.368C271.61 265.585 268.49 272.006 268.49 272.006C268.49 272.006 262.95 270.391 262.64 278.557C260.6 278.889 258.3 271.274 258.63 263.609C259.04 259.285 267.27 259.456 270.04 263.368Z" fill="#263238" />
-            <path opacity="0.2" d="M265.82 274.916C266.8 274.545 267.82 275.177 268.14 275.969C268.53 276.922 267.99 279.149 264.99 279.852" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path opacity="0.2" d="M265.82 274.916C266.8 274.545 267.82 275.177 268.14 275.969C268.53 276.922 267.99 279.149 264.99 279.852" stroke="black" strokeWidth="0.5" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M241.84 283.724C242.71 284.968 243.77 287.396 243.77 287.396C244.01 287.346 244.25 287.286 244.49 287.216C247.76 286.393 249 284.958 249.38 283.614C249.59 282.882 249.53 282.169 249.4 281.597C249.26 280.945 249.01 280.514 249.01 280.514C247.54 281.959 244.56 282.952 242.94 283.413C242.26 283.614 241.83 283.714 241.83 283.714L241.84 283.724Z" fill="#263238" />
             <path d="M242.95 283.423L243.55 284.487C246.63 283.704 248.68 282.751 249.41 281.607C249.27 280.955 249.02 280.524 249.02 280.524C247.55 281.969 244.57 282.962 242.95 283.423Z" fill="white" />
             <path d="M244.49 287.216C247.76 286.393 249 284.958 249.38 283.614C248.28 283.935 246.98 284.447 245.94 285.229C245.14 285.821 244.72 286.543 244.49 287.216Z" fill="#FB504E" />
@@ -1162,16 +1162,16 @@ export const Banner2 = () => (
             <path d="M256.5 316.149C256.01 316.3 253.76 333.666 253.76 333.666C253.76 333.666 257.4 350.36 257.39 349.888C257.38 349.417 262.37 329.312 262.37 329.312L259.19 316.159H256.5V316.149Z" fill="#407BFF" />
             <path d="M228.32 350.009C228.32 350.009 221.37 349.668 217.42 353.079C217.42 353.079 217.46 345.745 228.84 348.504L228.33 350.009H228.32Z" fill="#2C2C2C" />
             <path opacity="0.5" d="M220.78 320.182C220.07 319.972 219.29 320.182 218.52 320.694L214.82 331.93C215.16 332.994 215.76 333.746 216.58 333.987C218.57 334.569 221.12 331.94 222.28 328.128C223.44 324.316 222.76 320.754 220.77 320.182H220.78Z" fill="black" />
-            <path d="M247.75 364.767L248.53 355.888L228.32 350.009L229.75 345.795" stroke="#263238" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M247.75 364.767L248.53 355.888L228.32 350.009L229.75 345.795" stroke="#263238" strokeWidth="0.5" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M303.14 365.017C303.14 365.017 307.14 359.54 303.31 348.554C299.48 337.569 292.81 311.293 287.81 308.795L281.3 340.217L284.64 350.009L264.43 355.888L265.24 365.017H303.16H303.14Z" fill="black" />
             <path d="M282.3 343.167C282.28 343.107 284.88 322.901 284.88 322.901L283.84 347.671L282.31 343.167H282.3Z" fill="#2C2C2C" />
             <path d="M284.63 350.009C284.63 350.009 291.58 349.668 295.53 353.079C295.53 353.079 295.49 345.745 284.11 348.504L284.62 350.009H284.63Z" fill="#2C2C2C" />
-            <path d="M282.3 343.167L284.63 350.009L264.42 355.888L265.22 365.017" stroke="#263238" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M282.3 343.167L284.63 350.009L264.42 355.888L265.22 365.017" stroke="#263238" strokeWidth="0.5" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M268.3 303.98L257.25 350.43C257.25 350.43 261.56 341.21 263.23 339.053L273.94 316.159C273.84 313.812 268.3 303.99 268.3 303.99V303.98Z" fill="#2C2C2C" />
-            <path d="M246.79 303.739L252.75 314.143L257.91 308.153C257.91 308.153 263.17 313.41 263.17 313.22C263.17 313.029 268.32 303.869 268.32 303.869" stroke="#263238" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M246.79 303.739L252.75 314.143L257.91 308.153C257.91 308.153 263.17 313.41 263.17 313.22C263.17 313.029 268.32 303.869 268.32 303.869" stroke="#263238" strokeWidth="0.5" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M279.98 334.81H267.9V337.207H279.98V334.81Z" fill="white" />
-            <path opacity="0.3" d="M238.87 257.901C247.42 263.629 256.85 268.094 266.74 271.103" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
-            <path opacity="0.3" d="M249.11 255.593C254.94 261.683 261.74 266.88 269.2 270.933" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path opacity="0.3" d="M238.87 257.901C247.42 263.629 256.85 268.094 266.74 271.103" stroke="black" strokeWidth="0.5" strokeLinecap="round" strokeLinejoin="round" />
+            <path opacity="0.3" d="M249.11 255.593C254.94 261.683 261.74 266.88 269.2 270.933" stroke="black" strokeWidth="0.5" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M248.69 356.861C248.69 356.861 259.25 356.129 260.76 357.333C262.27 358.536 267.49 361.075 268.02 363.814C268.02 363.814 268.08 364.897 268.02 365.038C267.96 365.178 247.94 365.007 247.94 365.007L248.69 356.851V356.861Z" fill="#FFAF6B" />
             <path d="M167.29 362.67H125.05V365.047H171.2L167.29 362.67Z" fill="#263238" />
             <path d="M196.01 353.149H119.92L114.49 293.626H190.56L196.01 353.149Z" fill="#407BFF" />
@@ -1179,7 +1179,7 @@ export const Banner2 = () => (
             <path opacity="0.3" d="M164.23 353.149H155.58L165.05 332.221L164.23 353.149Z" fill="black" />
             <path d="M137.2 362.429L154.46 363.422L165.05 332.221H147.46L137.2 362.429Z" fill="#407BFF" />
             <path d="M135.65 364.456H153.26L164.2 332.221H147.46L135.65 364.456Z" fill="#263238" />
-            <path opacity="0.3" d="M135.93 364.325L147.46 332.221H165.05" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path opacity="0.3" d="M135.93 364.325L147.46 332.221H165.05" stroke="black" strokeWidth="0.5" strokeLinecap="round" strokeLinejoin="round" />
             <path d="M414.52 363.864H85.4799C83.2045 363.864 81.3599 365.714 81.3599 367.997V368.95C81.3599 371.233 83.2045 373.084 85.4799 373.084H414.52C416.795 373.084 418.64 371.233 418.64 368.95V367.997C418.64 365.714 416.795 363.864 414.52 363.864Z" fill="#A24E3F" />
             <path opacity="0.3" d="M403.64 373.073H95.9697V383.768H403.64V373.073Z" fill="black" />
             <g opacity="0.3">
@@ -1212,10 +1212,11 @@ export const Banner2 = () => (
         </g>
         <defs>
             <clipPath id="clip0_841_19612">
-                <rect width="500" height="444.91" fill="white" transform="translate(0 99.1667)" />
+                <rect width={500} height="444.91" fill="white" transform="translate(0 99.1667)" />
             </clipPath>
         </defs>
     </svg>
+
 )
 
 export default Banner

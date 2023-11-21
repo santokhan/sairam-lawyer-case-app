@@ -6,7 +6,7 @@ import AppContainer from "../components/AppContainer"
 const HomePage = () => {
     return (
         <AppContainer>
-            <div className="grid gap-4 grid-cols-1 xl:grid-cols-[1fr_28rem] py-4">
+            <div className="grid gap-4 grid-cols-1 lg:grid-cols-[1fr_28rem] py-4">
                 <div className="flex gap-4">
                     <div className="w-full space-y-4">
                         {/* <Post /> */}

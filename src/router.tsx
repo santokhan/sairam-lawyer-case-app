@@ -21,7 +21,14 @@ import UserRoot from "./pages/user/UserRoot";
 import NewsFeed from "./pages/NewsFeed";
 import FindLawyers from "./pages/FindLawyers";
 import Connections from "./pages/Connections";
-import Chats from "./pages/Chats";
+import LegalResearch from "./pages/LegalResearch";
+import SearchLaw from "./pages/SearchLaw";
+import SearchDictionary from "./pages/SearchDictionary";
+import SearchJudgements from "./pages/SearchJudgements";
+import DocumentWriter from "./pages/DocumentWriter";
+import LegalOpinion from "./pages/LegalOpinion";
+import DocumentChat from "./pages/DocumentChat";
+import Results from "./pages/search-law/Results";
 
 const router = createBrowserRouter([
     {
@@ -48,18 +55,6 @@ const router = createBrowserRouter([
             //     path: "chats",
             //     element: <Chats />
             // },
-            {
-                path: "law-library",
-                element: <LawLibrary />,
-            },
-            {
-                path: "case-management",
-                element: <CaseManagement />,
-            },
-            {
-                path: "leagal-search",
-                element: <Legal />,
-            },
             {
                 path: "settings",
                 element: <Settings />,
@@ -98,6 +93,91 @@ const router = createBrowserRouter([
                     },
                 ]
             },
+
+            {
+                path: "case-management",
+                element: <CaseManagement />,
+            },
+            {
+                path: "legal-research",
+                element: <LegalResearch />,
+                children: [
+                    {
+                        path: "",
+                        element: <Results />,
+                    }
+                ]
+            },
+            {
+                path: "search-law",
+                element: <SearchLaw />,
+                children: [
+                    {
+                        path: "",
+                        element: <Results />,
+                    }
+                ]
+            },
+            {
+                path: "search-dictionary",
+                element: <SearchDictionary />,
+                children: [
+                    {
+                        path: "",
+                        element: <Results />,
+                    }
+                ]
+            },
+            {
+                path: "search-judgements",
+                element: <SearchJudgements />,
+                children: [
+                    {
+                        path: "",
+                        element: <Results />,
+                    }
+                ]
+            },
+            {
+                path: "document-analytics",
+                element: <DocumentWriter />,
+                children: [
+                    {
+                        path: "",
+                        element: <Results />,
+                    }
+                ]
+            },
+            {
+                path: "document-writer",
+                element: <DocumentWriter />,
+                children: [
+                    {
+                        path: "",
+                        element: <Results />,
+                    }
+                ]
+            },
+            {
+                path: "legal-opinion",
+                element: <LegalOpinion />,
+                children: [
+                    {
+                        path: "",
+                        element: <Results />,
+                    }
+                ]
+            },
+            {
+                path: "document-chat",
+                element: <DocumentChat />,
+                children: [
+                    {
+                        path: "",
+                        element: <Results />,
+                    }
+                ]
+            },
         ]
     },
     {
@@ -117,6 +197,14 @@ const router = createBrowserRouter([
                 element: <Logout />
             },
         ]
+    },
+    {
+        path: "law-library",
+        element: <LawLibrary />,
+    },
+    {
+        path: "legal-search",
+        element: <Legal />,
     },
 ]);
 

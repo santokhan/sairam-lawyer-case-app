@@ -16,9 +16,9 @@ const SignUp = () => (
                     </div>
                     <div className="space-y-3">
                         <h3 className="text-2xl font-semibold text-primary">Create Account/Sign In</h3>
-                        <p className="text-gray-700 text-base">Enter your mobile number ,you will receive a 6 digit code for verification</p>
+                        <p className="text-gray-700 text-base">Enter your mobile number, you will receive a 6 digit code for verification</p>
                         <div className="flex gap-4">
-                            <select id="countries" className="w-28 bg-gray-50 border border-gray-300 text-gray-900 rounded-full focus:ring-gray-600 focus:border-gray-600 block px-2 py-2.5 max-w-sm caret-blue-500">
+                            <select id="countries" className="w-28 bg-gray-50 border border-gray-300 text-gray-900 rounded-full focus:ring-gray-600 focus:border-gray-600 block px-2 py-2.5 max-w-sm caret-blue-500" title="phoneCode">
                                 {phoneCodeList.map((e, i) => (<option value={e.countryCode} key={i}>{e.iso.split("/")[0]}+{e.countryCode}</option>))}
                             </select>
                             <input
@@ -34,6 +34,19 @@ const SignUp = () => (
                         <button type="button" className="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-full px-5 py-3 text-base focus:outline-none">
                             Sent OTP
                         </button>
+                    </div>
+                    <div className="space-y-3">
+                        <h5>Enter OTP</h5>
+                        <p>OTP has been sent to +91 8921912219</p>
+                        <div className="flex justify-between">
+                            <p>Valid for: 45s</p>
+                            <button
+                                type="button"
+                                className="text-primary hover:text-blue-700 font-medium"
+                            >
+                                Resend code
+                            </button>
+                        </div>
                     </div>
                 </form>
             </div>
